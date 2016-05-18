@@ -79,3 +79,6 @@ variable "vpc_zone_subnets" {
   description = "A comma seperated list string of VPC subnets to associate with ASG, should correspond with var.availability_zones zones"
 }
 
+variable "instance_name_tag"
+  description "The name that will get assigned to the instances that the ASG group spins up"
+}
