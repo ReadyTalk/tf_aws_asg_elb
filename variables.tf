@@ -80,5 +80,5 @@ variable "vpc_zone_subnets" {
 }
 
 variable "instance_name_tag" {
-  description "The name that will get assigned to the instances that the ASG group spins up"
+  description = "The name that will get assigned to the instances that the ASG group spins up"
 }
